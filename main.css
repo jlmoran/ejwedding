@@ -1,0 +1,94 @@
+
+.topnav {
+    font-size: 14px;}
+	
+.navbar {
+    margin-bottom: 0;
+}
+
+
+.main {
+    padding-top: 70px; 
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+	background: url(img/EJ.jpg) no-repeat top center;
+    background-size: cover;
+	clear: both;
+	
+}
+
+.main-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.main-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.main-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.main-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-weight: bold;
+}
+
+@media(max-width:767px) {
+    .main-message {
+        padding-bottom: 15%;
+    }
+
+    .main-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.main-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.main-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .main-divider {
+        width: 100%;
+    }
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neigborhood-guides {
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;  
+}
+.neigborhood-guides h2 {
+  color: #393c3d;
+  font-size: 24px;  
+}
+
+.neigborhood-guides p {
+  margin-bottom: 13px;
+  font-size: 15px;  
+}
