@@ -26,7 +26,7 @@
 
 .main-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.6);
     font-size: 5em;
 }
 
@@ -43,7 +43,7 @@
 
 @media(max-width:767px) {
     .main-message {
-        padding-bottom: 15%;
+		padding-top: 50%;
     }
 
     .main-message > h1 {
@@ -65,30 +65,22 @@
     }
 }
 
-.learn-more {
+.footer-more {
   background-color: #f7f7f7;
 }
 
-.learn-more h3 {
+.footer-more h3 {
   font-family: 'Shift', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-.learn-more a {
+.footer-more p{
+  font-family: 'Shift', sans-serif;
+  font-size: 15px;
+}
+
+.footer-more a {
   color: #00b0ff;
-}
 
-.neigborhood-guides {
-  background-color: #efefef;
-  border-bottom: 1px solid #dbdbdb;  
-}
-.neigborhood-guides h2 {
-  color: #393c3d;
-  font-size: 24px;  
-}
-
-.neigborhood-guides p {
-  margin-bottom: 13px;
-  font-size: 15px;  
 }
