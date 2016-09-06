@@ -15,9 +15,12 @@ body {
     margin-bottom: 0;
 }
  
- .main {
-    padding-top: 70px; 
+ .main .container {
+  padding-top: 70px; 
     padding-bottom: 50px;
+ }
+ 
+ .main {
     text-align: center;
     color: #f8f8f8;
 	background: url(img/EJ.jpg) no-repeat top center;
@@ -78,7 +81,7 @@ body {
 		padding-top: 42%;
 		padding-bottom: 5%
     }
-	
+
 }
 
 
@@ -94,11 +97,17 @@ body {
 
 .footer-more p{
   font-family: 'Shift', sans-serif;
+  
 }
 
 .footer-more a {
   color: #00b0ff;
 
+}
+
+.footer-more  .col-md-4 {
+	padding-top: 2%;
+	padding-bottom:2%;
 }
 
 .content-section-a {
