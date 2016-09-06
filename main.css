@@ -1,27 +1,38 @@
 
+body {
+    margin:0;
+    padding:0;
+    height:100%; /* needed for container min-height */
+	min-height:100%;
+}
+
+
+
 .topnav {
     font-size: 14px;}
 	
 .navbar {
     margin-bottom: 0;
 }
-
-
-.main {
-    padding-top: 70px; 
+ 
+ .main .container {
+  padding-top: 70px; 
     padding-bottom: 50px;
+ }
+ 
+ .main {
     text-align: center;
     color: #f8f8f8;
 	background: url(img/EJ.jpg) no-repeat top center;
     background-size: cover;
-	clear: both;
-	
+	clear: both;	
 }
 
 .main-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 25%;
+    padding-bottom: 15%;
+	
 }
 
 .main-message > h1 {
@@ -41,7 +52,7 @@
 	font-weight: bold;
 }
 
-@media(max-width:767px) {
+@media(max-width: 800px) {
     .main-message {
 		padding-top: 50%;
     }
@@ -65,6 +76,15 @@
     }
 }
 
+@media (min-width:1600px) {
+	.main-message {
+		padding-top: 42%;
+		padding-bottom: 5%
+    }
+
+}
+
+
 .footer-more {
   background-color: #f7f7f7;
 }
@@ -77,12 +97,17 @@
 
 .footer-more p{
   font-family: 'Shift', sans-serif;
-  font-size: 15px;
+  
 }
 
 .footer-more a {
   color: #00b0ff;
 
+}
+
+.footer-more  .col-md-4 {
+	padding-top: 2%;
+	padding-bottom:2%;
 }
 
 .content-section-a {
