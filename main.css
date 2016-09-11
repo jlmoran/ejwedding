@@ -68,6 +68,11 @@ body {
     .main-divider {
         width: 100%;
     }
+	
+	#TMW {
+  font-size: 2em;
+
+   }
 }
 
 @media (min-width:1600px) {
@@ -78,11 +83,12 @@ body {
 
 }
 
-/* @media (min-width:900px max-width:1200px) {
-	.footer-more .row {
-		margin-left: -140px;
+
+@media (min-width:760px) and (max-width:991px) {
+.footer-more .container {
+		margin-left: 0px;
     }
-} */
+}
 
 .footer-more {
   background-color: #f7f7f7;
