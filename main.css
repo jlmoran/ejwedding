@@ -94,6 +94,14 @@ body {
 .footer-more .container {
 		margin-left: 0px;
     }
+.main-message > h1 {
+        font-size: 5em;
+    }	
+
+.main-message > h3 {
+        font-size: 30px;
+    }
+	
 }
 
 .footer-more {
