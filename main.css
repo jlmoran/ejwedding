@@ -130,9 +130,26 @@ body {
 	padding-bottom:2%;
 }
 
-.content-section-a {
-    padding-top: 15px; 
-    padding-bottom: 15px;
-	clear: both;
-	
+
+.main-content {
+padding-top: 20px;  
+padding-bottom: 20px;    
+        
 }
+
+.panel-group {
+  font-family: "GothamBook","Arial","sans-serif";
+padding: 25px;
+    
+}
+
+.panel-heading    {
+font-family: "GothamBook","Arial","sans-serif";
+font-size: 1.5em;
+}
+
+.panel-body {
+    margin: 40px;
+    border: none;
+}
+

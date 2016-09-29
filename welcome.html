@@ -3,11 +3,11 @@
   
  <head>
  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
 	
 	 <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="main.css">
 	<meta name="google-site-verification" content="VRPVbkJO24iCPDVuJ36HaH5tkWTaXGA1ELLJW_8Msq0" />
     
   </head>
@@ -67,11 +67,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      		<h1>Kristy & Adam</h1>
 							<h2 id="TMW">You are invited to<br>
 							Erin & Jacob's wedding</h2>
-                       <hr class="main-divider">
-                        <div class="list-inline main-social-buttons">
-				
-						<a href="https://www.google.com.au" class="btn btn-default btn-lg"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="network-name">RSVP</span></a>
-			
+    
 				       </div>	
                     </div>
                 </div>
@@ -80,65 +76,77 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
         <!-- /.container -->
 
-    </div>
     <!-- /.main-header -->
-    <div class="list-group">
-     <button type="button" class="list-group-item" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
-  <div id="demo" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
- <button type="button" class="list-group-item" data-toggle="collapse" data-target="#demo1">Simple collapsible</button>
-  <div id="demo1" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
-         <button type="button" class="list-group-item" data-toggle="collapse" data-target="#demo2">Simple collapsible</button>
-  <div id="demo2" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
-         <button type="button" class="list-group-item" data-toggle="collapse" data-target="#demo3">Simple collapsible</button>
-  <div id="demo3" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
-</div>
-      <!-- footer -->
+      <div class ="main-content">
+      <div class="row">
+          <div class="col-md-6">
+    <div class="panel-group" id="accordion">
+        
+    <div class="panel panel-default">
+      <div class="panel-heading">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Where &amp; When</a>
+      </div>
+           
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      </div>
+ </div>
+        
+        <div class="panel panel-default">
+      <div class="panel-heading">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Getting there</a>
+      </div>
+        </div>    
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      </div>
+    </div>
+        
+    <div class="panel panel-default">
+      <div class="panel-heading">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What to wear</a>
+        </div>  
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+       </div>
+      </div>
+              </div>
+                  </div> 
+    <div class="col-md-6"></div>
+          </div> 
+          
+          
+          </div>
+    
+
+              
+  <!-- footer -->
     <footer>
-    <div class="footer-more">
-	  <div class="container">
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Location</h3>
-			<p>Somewhere in Newcastle</p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Contact</h3>
-			<p>If you have any questions</p>
-			<p><a href="#">Please send us an email</a></p>
-		 </div>
-		  <div class="col-md-4">
-			<h3>For the Fridge</h3>
-			<p>Want to print a reminder?</p>
-			<p><a download="awesome.jpg" href="img/awesome.jpg" title="Erin & Jacob's Wedding">Click here to download a printable version</a>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+		<div class="footer-more">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-4">
+				<h3>Location</h3>
+				<p>Newcastle</p>
+			  </div>
+			  <div class="col-md-4">
+				<h3>Contact</h3>
+				<p>Got a question?</p>
+				<p><a href="mailto:hello@ejwedding.com.au">Send us an email</a></p>
+			  </div>
+			  <div class="col-md-4">
+				<h3>Print</h3>
+				<p>Want a reminder for the fridge?</p>
+				<a href="img/Erin_Jacob_Wedding.jpg" download="Erin_Jacob_Wedding.jpg">Download a printable version</a>
+			  </div>
+			</div>
+		  </div>
+		</div>
     </footer>
 	<!-- /footer -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+	 <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
 	
 
 
