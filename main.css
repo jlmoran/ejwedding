@@ -3,11 +3,11 @@ body {
     padding:0;
     height:100%;
 	min-height:100%;
+	font-family: "GothamBook","Arial","sans-serif";
 }
 
 .topnav {
     font-size: 17px;
-	font-family: 'Shift', sans-serif;
 	letter-spacing: 0.5px;
 
 	}
@@ -18,12 +18,12 @@ body {
 }
   
  
- .main .container {
+.main .container {
   padding-top: 70px; 
     padding-bottom: 50px;
  }
  
- .main {
+.main {
     text-align: center;
     color: #f8f8f8;
 	background: url(img/EJ.jpg) no-repeat top center;
@@ -77,6 +77,7 @@ body {
 	
 	#TMW {
   font-size: 2em;
+  
 
    }
 }
@@ -131,21 +132,19 @@ body {
 }
 
 
-.main-content {
-padding-top: 20px;  
-padding-bottom: 20px;    
+.main-content {  
+color: black; 
         
 }
 
 .panel-group {
-  font-family: "GothamBook","Arial","sans-serif";
 padding: 25px;
     
 }
 
-.panel-heading    {
-font-family: "GothamBook","Arial","sans-serif";
+.panel-heading a  {
 font-size: 1.5em;
+color: #777;
 }
 
 .panel-body {
@@ -153,3 +152,58 @@ font-size: 1.5em;
     border: none;
 }
 
+
+ .main-header {
+    text-align: center;
+    color: #f8f8f8;
+	background: url(img/bears.jpg) no-repeat top center;
+    background-size: cover;
+	clear: both;	
+    min-height:800px;
+}
+
+.main-header-message {
+    position: relative;
+	padding-top: 35px;
+	
+}
+
+.main-header-message > h1 {
+    margin: 0;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+    font-size: 5em;
+	padding-bottom: 25px;
+}
+
+
+.main-header-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-weight: bold;
+}
+
+@media(max-width: 800px) {
+  
+
+    .main-header-message > h1 {
+        font-size: 4em;
+    }
+}
+
+@media (min-width:1600px) {
+	.main-header-message {
+		padding-bottom: 5%
+    }
+
+}
+
+@media (min-width:760px) and (max-width:991px) {
+
+.main-header-message > h1 {
+        font-size: 5em;
+    }	
+
+.main-header-message > h3 {
+        font-size: 30px;
+    }
+	
+}
