@@ -5,18 +5,6 @@ body {
 	min-height:100%;
 	font-family: "GothamBook","Arial","sans-serif";
 }
-
-.topnav {
-    font-size: 17px;
-	letter-spacing: 0.5px;
-
-	}
-	
-	
-.navbar {
-    margin-bottom: 0;
-}
-  
  
 .main .container {
   padding-top: 70px; 
@@ -149,15 +137,22 @@ letter-spacing: 2px;
 }
 
 .panel-body {
-    margin: 40px;
+    margin: 20px;
     border: none;
+}
+
+.panel-body li {
+   text-align: left;
+   font-size: 12px;
+   line-height: 1.8em;
+   margin-top:10px;
 }
 
 
  .main-header {
     text-align: center;
     color: #f8f8f8;
-	background: url(img/Walls.jpg) no-repeat top center;
+	background: url(img/weddingchair.jpg) no-repeat top center;
     background-size: cover;
 	clear: both;	
     min-height:800px;
@@ -173,7 +168,7 @@ letter-spacing: 2px;
     margin: 0;
     text-shadow: 4px 4px 4px rgba(0,0,0,0.6);
     font-size: 5em;
-	padding-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 
