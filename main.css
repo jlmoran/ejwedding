@@ -63,11 +63,6 @@ body {
         width: 100%;
     }
 	
-	#TMW {
-  font-size: 2em;
-  
-
-   }
 }
 
 @media (min-width:1600px) {
@@ -203,3 +198,29 @@ letter-spacing: 2px;
     }
 	
 }
+
+.form-control{
+width:70%;
+margin: auto;
+}
+
+.form-check-label{
+font-weight: 100;}
+
+h5 {
+font-weight: 200;
+}
+
+ .btn-default { 
+	background-color: coral;
+    color: white;
+	}
+	
+.btn-default:hover {
+    color: white;
+    background-color: coral;
+    opacity: 0.8;
+    border-color: #adadad;
+}	
+	
+	
