@@ -1,8 +1,8 @@
 <!DOCTYPE html> 
  <head>
- <script src="js/FormVars.js"></script>
  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	
+	 <script src="js/jquery.js"></script>	
+	 <script src="js/FormVars.js"></script>
 	 <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -184,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <input type="submit" class="btn btn-lg btn-default" value="Send"/>
 </div>
 </form>
-<!-- <script data-cfasync="false" type="text/javascript">
+<script data-cfasync="false" type="text/javascript">
 jQuery( document ).ready(function( $ ) {
 	// variable to hold request
 	var request;
@@ -207,18 +207,16 @@ jQuery( document ).ready(function( $ ) {
 		$('#result').text('Sending data...');
 		// fire off the request to /form.php
 		request = $.ajax({
-			// url: "https://script.google.com/macros/s/AKfycbzV--xTooSkBLufMs4AnrCTdwZxVNtycTE4JNtaCze2UijXAg8/exec", // works
-      url: "https://script.google.com/macros/s/AKfycbwHyDcY2sMFzoUPYCHVnqrzNyZOhlI4yuf2vYIFX1MXEVGixhX5/exec",  // clone
+	 url: "https://script.google.com/macros/s/AKfycbw8guOocngFA2qeneXw8WHD6LPwP59c5cb5INfNZLaXktfSruHD/exec", 
 			type: "post",
 			data: serializedData
 		});
 		// callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
-			// log a message to the console
-      console.log(response, textStatus, jqXHR);
-			$('#result').html('<a href="https://docs.google.com/spreadsheets/d/10tt64TiALYhPMqR2fh9JzkuhxW7oC0rXXPb_pmJ7HAY/edit?usp=sharing" target="_blank">Success - see Google Sheet</a>');
-			console.log("Hooray, it worked!");
+			$('#result').html('<p> Success! We look forward to seeing you there</p>');
+			$('.btn btn-lg btn-default')('disabled');
 		});
+		
 		// callback handler that will be called on failure
 		request.fail(function (jqXHR, textStatus, errorThrown){
 			// log the error to the console
@@ -237,7 +235,7 @@ jQuery( document ).ready(function( $ ) {
 		event.preventDefault();
 	});
 });
-</script> -->
+</script> 
       </div>
     </div>
 	

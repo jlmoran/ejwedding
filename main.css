@@ -216,11 +216,12 @@ font-weight: 200;
     color: white;
 	}
 	
-.btn-default:hover {
+.btn-default:hover, .btn-default[disabled]:hover {
     color: white;
     background-color: coral;
     opacity: 0.8;
-    border-color: #adadad;
+    border-color: transparent;
 }	
+
 	
 	
