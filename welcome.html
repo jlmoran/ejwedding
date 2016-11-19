@@ -1,8 +1,9 @@
 <!DOCTYPE html> 
  <head>
+ 
+    <!-- Head -->
  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	 <script src="js/jquery.js"></script>	
-	 <script src="js/FormVars.js"></script>
 	 <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -25,8 +26,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -
 
-
-    <!-- Header -->
+<!-- Body -->
     <div class="main-header">
         <div class="container">
             <div class="row">
@@ -35,8 +35,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      		<h1 id="Invitees">Meg, Steve, Josh & Charlie</h1>
 							<h2>You are invited to<br>
 							Erin & Jacob's wedding</h2>
-							
-    
 				       </div>	
                     </div>
                 </div>
@@ -119,8 +117,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		Erin & Jacob will be wearing clothes, so it's probably advisable to follow their lead with that.
        </div>
       </div>
-	  
-	  
 	          <div class="panel panel-default">
       <div class="panel-heading">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Gifts</a>
@@ -144,6 +140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		
 
 <div class="form-group">
+<script src="js/form-data.js"></script>
   <h5><label for="name">Name</label></h5>
     <input id="name" name="name" value="Megan" type="hidden"><p>Meg</p>
 </div>
@@ -184,59 +181,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <input type="submit" class="btn btn-lg btn-default" value="Send"/>
 </div>
 </form>
-<script data-cfasync="false" type="text/javascript">
-jQuery( document ).ready(function( $ ) {
-	// variable to hold request
-	var request;
-	// bind to the submit event of our form
-	$("#rsvp-form").submit(function(event){
-		// abort any pending request
-		if (request) {
-			request.abort();
-		}
-		// setup some local variables
-		var $form = $(this);
-		// let's select and cache all the fields
-		var $inputs = $form.find("input, select, button, textarea");
-		// serialize the data in the form
-		var serializedData = $form.serialize();
-		// let's disable the inputs for the duration of the ajax request
-		// Note: we disable elements AFTER the form data has been serialized.
-		// Disabled form elements will not be serialized.
-		$inputs.prop("disabled", true);
-		$('#result').text('Sending data...');
-		// fire off the request to /form.php
-		request = $.ajax({
-	 url: "https://script.google.com/macros/s/AKfycbw8guOocngFA2qeneXw8WHD6LPwP59c5cb5INfNZLaXktfSruHD/exec", 
-			type: "post",
-			data: serializedData
-		});
-		// callback handler that will be called on success
-		request.done(function (response, textStatus, jqXHR){
-			$('#result').html('<p> Success! We look forward to seeing you there</p>');
-			$('.btn btn-lg btn-default')('disabled');
-		});
-		
-		// callback handler that will be called on failure
-		request.fail(function (jqXHR, textStatus, errorThrown){
-			// log the error to the console
-			console.error(
-				"The following error occured: "+
-				textStatus, errorThrown
-			);
-		});
-		// callback handler that will be called regardless
-		// if the request failed or succeeded
-		request.always(function () {
-			// reenable the inputs
-			$inputs.prop("disabled", false);
-		});
-		// prevent default posting of form
-		event.preventDefault();
-	});
-});
-</script> 
-      </div>
+     </div>
     </div>
 	
 	        <div class="panel panel-default">
@@ -257,13 +202,6 @@ jQuery( document ).ready(function( $ ) {
           </div>
     
             </div>
-			
-			
-
-        <!-- /.container -->
-
-    <!-- /.main-header -->
-    
 
               
   <!-- footer -->
