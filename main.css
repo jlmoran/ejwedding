@@ -211,6 +211,11 @@ h5 {
 font-weight: 200;
 }
 
+.form-check{
+margin-bottom: 10px;
+}
+
+
  .btn-default { 
 	background-color: coral;
     color: white;
@@ -223,5 +228,10 @@ font-weight: 200;
     border-color: transparent;
 }	
 
+.radio {
+
+    display: inline-block;
+    text-align: left;
+}
 	
 	
