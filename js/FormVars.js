@@ -1,5 +1,4 @@
-$(document).ready(function() {
-/*var $FormName= $('#name');
-var $Invited= $('#Invitees');*/
-$('#name').html ('<p>Hello</p>');
-}); 
+
+var Invite = getParameterByName('name');
+   document.getElementById("Invitees").innerHTML = Invite;
+     document.getElementById("name").value = Invite;

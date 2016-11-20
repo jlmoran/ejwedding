@@ -34,7 +34,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-lg-12">
                     <div class="main-header-message">
                      		<h1 id="Invitees"><script>var Invite = getParameterByName('name');
-   document.getElementById("Invitees").innerHTML = Invite</script></h1>
+   document.getElementById("Invitees").innerHTML = Invite
+   </script></h1>
 							<h2>You are invited to<br>
 							Erin & Jacob's wedding</h2>
 				       </div>	
@@ -127,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div id="collapse5" class="panel-collapse collapse">
         <div class="panel-body">Please don't feel obliged but there'll be a wishing well for our honeymoon that you can give to if you'd like.
 		</br>
-		</br>Feel free to just give money, as money can be exchanged for goods and services.
+		</br>Feel free to just give money, as <a href="https://www.youtube.com/watch?v=dgct3Jn8pFA"target="blank">money can be exchanged for goods and services.</a>
       </div>
     </div>
 	
@@ -144,7 +145,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="form-group">
 <script src="js/form-data.js"></script>
   <h5><label for="name">Name</label></h5>
-    <input id="name" name="name" value="Megan" type="hidden"><p>Meg</p>
+  
+    <input id="name" name="name" value="" type="text" input class="form-control">
+	<script>
+   document.getElementById("name").value = Invite
+   </script>
 </div>
 
 
