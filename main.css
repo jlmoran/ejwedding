@@ -228,6 +228,10 @@ margin-bottom: 10px;
     border-color: transparent;
 }	
 
+div.btn { 
+padding: 0px;
+}
+
 .radio {
 
     display: inline-block;
