@@ -215,13 +215,12 @@ font-weight: 200;
 margin-bottom: 10px;
 }
 
-
- .btn-default { 
+form .btn-default { 
 	background-color: coral;
     color: white;
 	}
 	
-.btn-default:hover, .btn-default[disabled]:hover {
+form .btn-default:hover, .btn-default[disabled]:hover {
     color: white;
     background-color: coral;
     opacity: 0.8;
@@ -229,7 +228,7 @@ margin-bottom: 10px;
 
 }	
 
-div.btn { 
+form div.btn { 
 padding: 0px;
 }
 

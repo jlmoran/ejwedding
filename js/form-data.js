@@ -1,4 +1,4 @@
-//Hi Ben - I knew you'd look at this. Credit where credit is due I stole this from here https://github.com/dwyl/web-form-to-google-sheet
+//Hi Ben - I knew you'd look at this. Credit where credit is due I stole this from https://github.com/dwyl/web-form-to-google-sheet
 
 jQuery( document ).ready(function( $ ) {
 	// variable to hold request
