@@ -28,7 +28,7 @@ jQuery( document ).ready(function( $ ) {
 		});
 		// callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
-			$('#result').html('<p> Success! We look forward to seeing you there</p>');
+			$('#result').html('<p> Success! Thanks for responding</p>');
 			$('.btn btn-lg btn-default')('disabled');
 		});
 		
