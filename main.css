@@ -249,9 +249,6 @@ padding: 0px;
     text-align: left;
 }
 	
-.row {
-    margin-right: 0px
-}
 
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
     border-top: 0px;
