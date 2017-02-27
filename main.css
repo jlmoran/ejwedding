@@ -150,9 +150,28 @@ letter-spacing: 2px;
     text-align: center;
     color: #f8f8f8;
 	background: url(img/weddingchair.jpg) no-repeat top center;
-    background-size: 2000px 1250px;
+    background-size: 2000px 1100px;
 	clear: both;	
     min-height:800px;
+}
+
+
+@media (min-width:760px) and (max-width:991px) {
+    .content {
+
+   background-size: 2000px 1700px;
+    
+}
+}
+
+
+@media (max-width:760px) {
+
+.content {
+
+   background-size: 2000px 2050px;
+    
+}
 }
 
  .content h2 {
@@ -274,4 +293,10 @@ padding: 0px;
     margin-left: 0px;
     margin-right:0px;
 }
-	
+
+#RSVP {
+    color: #777;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.6);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
