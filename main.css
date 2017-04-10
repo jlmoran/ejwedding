@@ -1,9 +1,15 @@
+html {
+    height: 100%;
+    min-height: 100%;    
+}
 body {
     margin:0;
     padding:0;
     height:100%;
 	min-height:100%;
 	font-family: "GothamBook","Arial","sans-serif";
+    display: flex;
+    flex-direction: column;
 }
  
 .main .container {
@@ -115,6 +121,7 @@ body {
 }
 
 
+
 .main-content {  
 color: black; 
 padding-right: 15px;
@@ -150,10 +157,10 @@ letter-spacing: 2px;
     text-align: center;
     color: #f8f8f8;
 	background: url(img/weddingchair.jpg) no-repeat top center;
-    background-size: 2000px 1100px;
-	clear: both;	
-    min-height:800px;
-}
+    background-size: 100% 1200px;
+	clear: both;
+     flex-grow: 1;
+        }
 
 
 @media (min-width:760px) and (max-width:991px) {
@@ -299,4 +306,8 @@ padding: 0px;
     text-shadow: 0px 0px 0px rgba(0,0,0,0.6);
     margin-top: 10px;
     margin-bottom: 25px;
+}
+
+#Invitees  {
+    visibility: hidden;
 }

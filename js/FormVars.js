@@ -11,7 +11,9 @@ url: "https://script.google.com/macros/s/AKfycbzp0RZM4sPzjO-yymVA46wr-Ycj8aCiKF8
 
 .done(function(invitereturn){
  document.getElementById("Invitees").innerHTML = invitereturn;
-   document.getElementById("name").value = invitereturn;
+ document.getElementById("name").value = invitereturn;
+ document.getElementById("Invitees").style.visibility="visible";    
+    
 })
     
   
