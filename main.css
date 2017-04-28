@@ -178,6 +178,12 @@ letter-spacing: 2px;
    background-size: 2000px 2050px;
     
 }
+
+.panel-group {
+    padding: 0px;
+    padding-top: 25px;
+}
+
 }
 
  .content h2 {
@@ -283,12 +289,28 @@ form div.btn {
 padding: 0px;
 }
 
-.radio {
-
-    display: inline-block;
-    text-align: left;
+#attendance .btn
+{
+width: 33%;
+padding: 10px;
+background-color: darkcyan;
+border-color: darkgrey;
 }
-	
+
+
+
+#attendance .btn-primary.active
+{
+background-color: darkslategray;
+}
+
+#attendance
+{
+width: 70%;
+ margin: 15px;
+
+
+}
 
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
     border-top: 0px;
