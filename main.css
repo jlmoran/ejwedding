@@ -161,7 +161,15 @@ letter-spacing: 2px;
      flex-grow: 1;
         }
 
+@media (min-width:992px) and (max-width:1200px) {
+    .content {
 
+   background-size: 100% 1000px;
+    
+}
+}
+		
+		
 @media (min-width:760px) and (max-width:991px) {
     .content {
 
@@ -306,7 +314,7 @@ background-color: darkslategray;
 
 #attendance
 {
-width: 70%;
+width: 90%;
  margin: 15px;
 
 
