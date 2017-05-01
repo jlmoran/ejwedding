@@ -161,7 +161,7 @@ letter-spacing: 2px;
      flex-grow: 1;
         }
 
-@media (min-width:992px) and (max-width:1200px) {
+@media (min-width:992px) and (max-width:1400px) {
     .content {
 
    background-size: 100% 1000px;
