@@ -156,7 +156,7 @@ letter-spacing: 2px;
     text-align: center;
     color: #f8f8f8;
 	background: url(img/bears.jpg) no-repeat top center;
-    background-size: 100% 1250px;
+    background-size: 100% 1400px;
 	clear: both;
      flex-grow: 1;
         }
@@ -164,7 +164,7 @@ letter-spacing: 2px;
 @media (min-width:992px) and (max-width:1400px) {
     .content {
 
-   background-size: 100% 1000px;
+   background-size: 100% 1200px;
     
 }
 }
@@ -244,11 +244,29 @@ letter-spacing: 2px;
 	
 }
 
+
 #rsvp-form {
 background-color: rgba(245,245,245, 0.8);
 padding: 15px;
 border-radius: 6px;
 }
+
+
+@media (min-width:991px) {
+    
+    .form-group > h5 {
+        
+        padding-top: 30px;
+    }  
+    
+    }
+    
+@media (min-width:1400px){
+    #rsvp-form {
+            padding: 50px;
+    }
+}
+
 
 .panel-group .panel {
 border-radius: 6px;
@@ -300,7 +318,7 @@ padding: 0px;
 #attendance .btn
 {
 width: 33%;
-padding: 10px;
+padding: 20px;
 background-color: darkcyan;
 border-color: darkgrey;
 }

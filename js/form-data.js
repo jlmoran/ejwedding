@@ -20,6 +20,10 @@ jQuery( document ).ready(function( $ ) {
 		// Disabled form elements will not be serialized.
 		$inputs.prop("disabled", true);
 		$('#result').text('Sending data...');
+        
+         ga('create', 'UA-82434877-1', 'auto');
+         ga('send','event','Form','Submitted','Success');
+         
 		// fire off the request to /form.php
 		request = $.ajax({
 	 url: "https://script.google.com/macros/s/AKfycbw8guOocngFA2qeneXw8WHD6LPwP59c5cb5INfNZLaXktfSruHD/exec", 
@@ -29,7 +33,7 @@ jQuery( document ).ready(function( $ ) {
 		// callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
 			$('#result').html('<p> Success! Thanks for responding</p>');
-			$('.btn btn-lg btn-default')('disabled');
+		
 		});
 		
 		// callback handler that will be called on failure
@@ -44,7 +48,7 @@ jQuery( document ).ready(function( $ ) {
 		// if the request failed or succeeded
 		request.always(function () {
 			// reenable the inputs
-			$inputs.prop("disabled", false);
+			$inputs.prop("disabled", true);
 		});
 		// prevent default posting of form
 		event.preventDefault();
