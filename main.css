@@ -330,7 +330,27 @@ background-color: darkcyan;
 border-color: darkgrey;
 }
 
+#attendance .btn:active, #attendance .btn:focus,
+#attendance .btn.active, #attendance .btn.focus{
+    
+    outline-color: transparent;
+    box-shadow: none;
+}
 
+@media (max-width: 768px) {
+    #attendance .btn {
+        width: 100%;
+        float: none;
+    }
+    
+    #attendance .btn:first-child {
+        border-radius: 4px 4px 0 0;
+    }
+    
+    #attendance .btn:last-child {
+        border-radius: 0 0 4px 4px;
+    }
+}
 
 #attendance .btn-primary.active
 {
